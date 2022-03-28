@@ -1,0 +1,21 @@
+.main {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    height: 100%;
+}
+
+.result {
+    background-color: whitesmoke;
+    width: 100%;
+    height: 100%;
+}
+
+.edit {
+    height: 100%;
+}
+
+::ng-deep .field {
+    margin: 100px;
+}
